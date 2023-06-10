@@ -9,7 +9,7 @@ import { io } from 'socket.io-client';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 const socket = io(
-  'https://railway.app/project/4c13d7e7-4749-44be-bb15-3842359f08c8/service/041af19c-8248-4eeb-ab8a-5f022de4ac3b?id=76cfbe00-dfdc-4f90-93ac-cc4cec00a51b&'
+  'us-west1-docker.pkg.dev/railway-infra/railway-docker-users/project/4c13d7e7-4749-44be-bb15-3842359f08c8/service/041af19c-8248-4eeb-ab8a-5f022de4ac3b:0cfbe37b-38e0-4c89-ae70-e1ee1fefba8e'
 );
 function App() {
   return (
